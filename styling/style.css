@@ -1,18 +1,20 @@
 body{
     margin: 0;
 }
-.width{
+.container{
     width: 1320px;
 }
-.d-flex{
-    display: flex;
+.navigation{
+    width: 100%;
 }
-.j-content{
-    justify-content: center;
+.ulrow{
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
 }
 .logo{
-    margin-right: 30%;
+    float: left;
 }
-.nav-link{
-    margin-left: 15%;
+.navlink{
+    margin-left: 25%;
 }
