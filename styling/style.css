@@ -3,18 +3,22 @@ body{
 }
 .container{
     width: 1320px;
+    justify-content: center;
+    display: flex;
 }
 .navigation{
     width: 100%;
 }
 .ulrow{
-    width: 100%;
-    justify-content: space-between;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
-.logo{
-    float: left;
+.justifycontent{
+    justify-content: center;
+    display: flex;
 }
-.navlink{
-    margin-left: 25%;
-}
+
+
+   
+
