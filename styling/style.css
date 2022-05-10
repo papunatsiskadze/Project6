@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: wheat;
 }
 @font-face {
     font-family: 'titlefont';
@@ -13,11 +14,27 @@ body{
     width: 1320px;
     justify-content: center;
     display: flex;
+    background-color:teal
 }
 .logo{
     font-family: 'titlefont';
     font-weight: bolder;
 }
+.logo:hover{
+    color: aqua;
+    opacity: 1;
+}
+.navlink{ 
+    font-family: 'titlefont';
+    font-weight: bolder;
+}
+.navlink:hover{ 
+    color: burlywood;
+    opacity: 1;
+    font-family: 'titlefont';
+    font-weight: bolder;
+}
+
 .navigation{
     width: 100%;
     margin-right: 20%;
@@ -39,6 +56,10 @@ body{
     z-index: -1;
     opacity: 0.5;
 }
+.H1{
+    font-family: 'titlefont';
+
+}
 p{
     width: 50%;
     font-family: 'pfont';
@@ -48,12 +69,14 @@ p{
 .justifycontent1{
     justify-content: center;
     display: flex;
+    width: 100%;
 }
 .container1{
     width: 1320px;
+    height: 100%;
 }
-.mt10{
-    margin-top: 10%;
+.mt5{
+    margin-top: 5%;
 }
 .ml15{
     margin-left: 15%;
@@ -61,10 +84,83 @@ p{
 .height{
     height: 550px;
 }
+.section1{
+    width: 1320px;
+    justify-content: center;
+    display: flex;
+}
+.justifycontent2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 70px 40px;
+}
+.tbl{
+    border: solid black;
+    width: 50%;
+}
+.animationdiv{
+    width: 50%;
+}
+tr:nth-child(even) {
+    background-color:violet;
+}
+.box1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: violet;
+    position: relative;
+    animation: move 3s infinite;
+}
+@keyframes move{
+    from{left: 0;}
+    to{left: 400px;}
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: violet;
+    opacity: 0.8;
+    position: relative;
+    animation: move 5s infinite;
+}
+@keyframes move{
+    from{left: 0;}
+    to{left: 400px;}
+}  
 
-
-
-
-
-   
-
+.box3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: violet;
+    opacity: 0.6;
+    position: relative;
+    animation: move 7s infinite;
+}
+@keyframes move{
+    from{left: 0;}
+    to{left: 400px;}
+} 
+.contact{
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px 20px ;
+}
+.contactdiv{
+    font-family: 'titlefont';
+}
+.ftr{
+    justify-content: center;
+    display: flex;
+}
+.ftdiv{
+    width: 1320px;
+    justify-content:space-around;
+}
+.textall{
+    text-align: center;
+}
