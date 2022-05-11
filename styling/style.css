@@ -10,6 +10,7 @@ body{
     font-family: 'pfont';
     src: url(../fonts/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf);
 }
+@media
 .container{
     width: 1320px;
     justify-content: center;
