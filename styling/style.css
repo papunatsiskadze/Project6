@@ -10,13 +10,6 @@ body{
     font-family: 'pfont';
     src: url(../fonts/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf);
 }
-@media only screen and ('max-width:600px') {
-    body{
-        background-color: aqua;
-
-    }
-}
-
 .container{
     width: 1320px;
 }
