@@ -10,6 +10,18 @@ body{
     font-family: 'pfont';
     src: url(../fonts/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf);
 }
+@media screen and (max-width: 600px) {
+    body {
+        width: 600px;
+        margin: 0;
+        background-color: aqua;
+    }
+    .backgroundimg{
+        width: 100px;
+        height: 100px;
+    }
+}
+
 .container{
     width: 1320px;
 }
@@ -57,6 +69,7 @@ body{
     font-family: 'titlefont';
 
 }
+
 p{
     width: 50%;
     font-family: 'pfont';
@@ -66,11 +79,9 @@ p{
 .justifycontent1{
     justify-content: center;
     display: flex;
-    width: 100%;
 }
 .container1{
     width: 1320px;
-    height: 100%;
 }
 .mt5{
     margin-top: 5%;
@@ -79,7 +90,7 @@ p{
     margin-left: 15%;
 }
 .height{
-    height: 550px;
+    justify-content: center;
 }
 .section1{
     width: 1320px;
